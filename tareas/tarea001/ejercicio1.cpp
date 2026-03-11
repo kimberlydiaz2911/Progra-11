@@ -28,17 +28,13 @@ if (t < 0 ) {
     cout << "El tiempo debe ser positivo." << '\n';
     return 0;
 }
-else {
-    cout << "Tiempo aceptado correctamente." << '\n';
-}
+
 
 if (y < 0) {
     cout << "La altura de la ventana debe ser positiva." << '\n';
     return 0;
 }
-else {
-    cout << "Altura aceptada correctamente." << '\n';
-}
+
 
 
 // Empezamos a calcular 

@@ -20,7 +20,7 @@ int main() {
 // Verificamos que los datos de velocidad y temperatura sean correctos 
 
     if (v >= 0) {
-        cout << "Velocidad aceptada." << '\n';
+        
     }
     else {
         cout << "La velocidad no puede ser negativa." << '\n';
@@ -28,7 +28,7 @@ int main() {
     }
 
     if (T > -273.15) { 
-        cout << "Temperatura acepatada." << '\n';
+        
     }
     else {
         cout << "La temperatura no puede ser menor o igual al cero absoluto (-273.15 C)." << '\n';
