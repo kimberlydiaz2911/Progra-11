@@ -45,15 +45,7 @@ Agregar(3,2);
 }
 
 
-// c igual a cantidad de vagones a los que se agregan 
-// a igual a la cantidad de unidades que se le agrega al vagon 
-int c; 
-cin >> c; 
-
-int a; 
-cin >> a;
-
-int Agregar(c, a) {
+int Agregar(int c, int a) {
 
 
 //recorremos cada objeto en la cantidad c de vagones y a cada
@@ -67,16 +59,16 @@ for (int i = 0; i = c; i++){
 }
 
 
-// v siendo vagon que quiero consultar
 
-int v;
-cin >> v; 
+int Consultar(int v){
 
-int Consultar(v){
-
-for (int i = 0; i >= c; i++){
+for (int i = 0; i >= N; i++){
 cout << N[i] << "\n";
 
 }
 }
 
+
+
+// prometo que si entiendo lo que me pide, pero no se como hacerlo todo!!!
+// no me sirve ni el cin. Esto es deprimente 
