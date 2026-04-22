@@ -25,19 +25,10 @@ int N[p] = {0};
 
 // Q igual a cantidad de operaciones. 
 int Q;  
+cin >> Q;
 
 
 int main(){
- 
-// N igual a cantidad de vagones.      
-int p; 
-cin >> p;
-
-// Q igual a cantidad de operaciones. 
-int Q;  
-cin >> Q; 
-
-
 
 Consultar(2);
 Agregar(3,2);
