@@ -5,13 +5,14 @@ using namespace std;
 bool esValido(int a, int b, int c) {
     // La desigualdad triangular: la suma de dos lados siempre debe ser mayor al tercero
     if ((a + b > c) && (a + c > b) && (b + c > a)) {
-        //cout << "Triangulo valido" << "\n";
+        
         return true;
     } else {
-        //cout << "Triangulo no valido" << "\n";
+        
         return false;
     }
 }
+
 
 void tipoTriangulo(int a, int b, int c) {
     if (a == b && b == c) {
@@ -27,10 +28,12 @@ void tipoTriangulo(int a, int b, int c) {
     }
 }
 
+// calculamos el perimetro 
 int calcularPerimetro(int a, int b, int c) {
     return a + b + c;
 }
 
+// describimos el triangulo
 void describirTriangulo(int a, int b, int c) {
     // Guardamos el resultado de la función en una variable
     bool valido = esValido(a, b, c);
@@ -43,11 +46,14 @@ void describirTriangulo(int a, int b, int c) {
     cout << "Perimetro: " << calcularPerimetro(a, b, c) << "\n";
 }
 
+//Llamamos la funcion main 
 int main() {
+    // definimos las variables 
     int a, b, c;
-    cout << "Ingrese los tres lados de su triangulo: " << endl;
+    // Pedimos que ingrese los datos 
+    cout << "Ingrese los tres lados de su triangulo: " << "\n";
     cin >> a >> b >> c;
-
+// Llamamos la funcion describir tiangulo 
     describirTriangulo(a, b, c);
 
     return 0;
