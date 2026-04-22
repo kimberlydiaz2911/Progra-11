@@ -19,7 +19,8 @@ using namespace std;
 
 
 // N igual a cantidad de vagones.      
-const int p = cin >> p; 
+const int p = cin >> p;
+
 int N[p] = {0};
 
 // Q igual a cantidad de operaciones. 
